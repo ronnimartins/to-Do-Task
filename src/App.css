@@ -1,0 +1,79 @@
+
+* {
+  margin: 0;
+	padding: 0;
+}
+
+
+body {
+  background-color: #0f0015;
+}
+.addButton{
+  background-color: #9F77CD;
+  border: none;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  border-radius: 10px;
+  margin-left: 9px;
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+  transition: all ease-in-out .3s;
+}
+
+.addButton:hover {
+  /* opacity: 0.5; */
+  transform: scale(1.1);
+  background-color: #3b2450;
+}
+
+.addTarefas {
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+    border: solid 1px #1E1229;
+    outline: none;
+    background-color: #0f0015;
+}
+
+.App {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.taskItem{
+  display: flex;
+  background-color: #1E1229;
+  color: #9F77CD;
+  padding: 18px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.done{
+  text-decoration: line-through;
+  color: #489189;
+}
+
+.lista{
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.actionIcons {
+  display: flex;
+  gap:15px;
+  cursor: pointer;
+}
