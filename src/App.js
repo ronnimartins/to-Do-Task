@@ -9,7 +9,7 @@ const INITIAL_STATE = [
   "Criar um projeto utilizando o conteúde estudado",
 ];
 
-const INITIAL_STATE_DONE = ["Estudar useState"];
+const INITIAL_STATE_DONE = [];
 
 function App() {
   const [toDoList, setToDoList] = useState(INITIAL_STATE);
